@@ -55,13 +55,13 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Baraka", numero: "255762190568" },
+      { nom: "Tosh", numero: "254111523038" },
       { nom: "᚛Ibrahim᚜", numero: "254710772666" },
       { nom: "Baraka", numero: "255762190568" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "WELCOME TO BARAKA HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "WELCOME TO TOSH HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -95,7 +95,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING BARAKA, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029Vail87sIyPtQoZ2egl1h] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/L8TDJ3U6Ca1IlGlZaEYyeu] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@ibrahimaitech] \n\n\n*Created By Baraka Bega") 
+  repondre("THANK YOU FOR CHOOSING TOSH, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029Vail87sIyPtQoZ2egl1h] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/K5qhnWJMAZE4lZYnU1Bluk] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@ibrahimaitech] \n\n\n*Created By Baraka Bega") 
   await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING BMW-MD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
