@@ -1,5 +1,5 @@
 {
-  "name":"SUPER-MD",
+  "name":"TOSH-MD",
   "description":"Best whatsapp bot developed by Tosh+Ibrahim adams",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/e03206989102cb861200e.jpg",
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"SUPER-MD",
+      "value":"TOSH-MD",
       "required":false
 
     } ,
