@@ -34,7 +34,7 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 ╭──────────────────❂
-┊❂╭───𝐒𝐔𝐏𝐄𝐑-𝐌𝐃────❂
+┊❂╭───*TOSH-MD*────❂
 ┊✺┊ *User* : ${s.OWNER_NAME}
 ┊✺┊ *Mode* : ${mode}
 ┊✺╰───────────────❂
@@ -44,7 +44,7 @@ const date = moment().format('DD/MM/YYYY');
 ╰──────────────────❂ \n\n`;
  
     let menuMsg=`  
-  *SUPER-MD COMMANDS*
+  **TOSH MD COMMANDS*
 `;
 
     for (const cat in coms) {
