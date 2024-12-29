@@ -13,6 +13,24 @@
       "value":".",
       "required":true
     },
+	  "ANTICALL":
+    {
+      "description":"Enter yes for your bot to auto reject calls",
+      "value":"yes",
+      "required":false
+    },
+"AUTO_BIO":
+    {
+      "description":"Enter yes for your bot to auto bio",
+      "value":"yes",
+      "required":false
+    },
+	  "AUTO_REACT_STATUS":
+    {
+      "description":"Enter yes for your bot to auto react to status",
+      "value":"yes",
+      "required":false
+    },
     "AUTO_READ_STATUS":
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
@@ -42,7 +60,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/e03206989102cb861200e.jpg",
+      "value":"https://files.catbox.moe/8kklqq.jpg",
       "required":false
        
      },
